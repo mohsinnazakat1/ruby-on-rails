@@ -18,7 +18,7 @@ puts '#{first_name} #{last_name}' #does not work good with ''
 #In ruby everthing is an object, even the premitive datatypes are objects 
 
 
-# you can check the class of an object using  -> .class 
+# you can check the class of an obje ct using  -> .class 
 # you can check methods available for an obejct using -> .methods 
 
 # 10.to_s.class ->  method chaining 
