@@ -60,6 +60,3 @@ else
     puts 'Invalid Entry'    
 end
 
-
-
-

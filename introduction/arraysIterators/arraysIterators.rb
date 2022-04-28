@@ -106,4 +106,28 @@ puts
 
 
 #iterators 
+# in other lanuages it could be for i in z 
+print digits
+puts  
+
+puts digits[0]
+puts digits[10]
+for i in digits 
+    print "#{i} "
+end
+puts
+
+#ruby way of implementing the above code 
+puts 'ruby way'
+digits.each do |i|
+    print "#{i} "
+end
+puts
+
+digits.each {|i| print "#{i} "}
+#.each method instead of for loop is better 
+
+num = (1..100).to_a.shuffle
+print num.select{|n| n.odd?}
+
 
