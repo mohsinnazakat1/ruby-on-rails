@@ -52,3 +52,4 @@ puts my_hash.select {|key, value| my_hash.delete(key) if value.is_a?(String)}
 
 print my_hash
 puts
+
